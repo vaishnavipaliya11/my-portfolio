@@ -11,7 +11,7 @@ body{
     font-family: 'Work Sans', sans-serif;
     background-color: #fafaf9;
 }
-.nav{
+.nav-options{
     display: flex;
     flex-direction: row;
     justify-content: center;
