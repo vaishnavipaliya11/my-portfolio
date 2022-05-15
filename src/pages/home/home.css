@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+:root{
+  --bg-color:rgb(11,25,46);
+  --primary-color:#f97316;
+  --text-color-light:#334155;
+  --text-color-dark:#1e293b;
+}
+.wrapper{
+    padding: 0%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+}
+.article {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  padding-top: -2000px;
+}
+
+.avatar {
+  height: 20rem;
+  width: 21.5rem;
+  margin: 0%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  border-radius: 50%;
+}
+.main {
+  padding: 0%;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+.intro {
+  margin-top: 2rem;
+  color: var(--primary-color);
+}
+.name {
+  font-size: 4rem;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: var(--text-color-dark);
+  letter-spacing: 1px;
+}
+.discription {
+  font-family: "Anton", sans-serif;
+  color: var(--text-color-light);
+  font-size: 2rem;
+  margin: 0;
+  line-height: 2.2rem;
+  letter-spacing: 1px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.para {
+  width: minmax(30rem, 15rem);
+  color: #1e293b;
+}
+.para p {
+  text-align: center;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.social-icon:hover{
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.socials hr{
+    height: 1px;
+    width: 5rem;
+    color: white;
+    background-color: white;
+    border-radius: 2px;
+}
+.social-icon{
+  height: 3rem;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .main{
+    padding: 0.5rem;
+  }
+  .para {
+    width: 20rem;
+  }
+  .name {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .discription {
+    font-size: 1.7rem;
+    margin: 0;
+    text-align: center;
+  }
+  .details {
+    text-align: left;
+  }
+  .article{
+      padding-top: 1rem;
+  }
+  .social-icon{
+    height: 2rem;
+    margin: 0.2rem;
+  }
+}
