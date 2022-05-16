@@ -5,7 +5,7 @@ import "./header.css";
 const Header = () => {
   const getActiveStyle = ({ isActive }) => ({
     
-    color: isActive ? "#f97316" : "",
+    color: isActive ? "#f97316" : "black",
   });
   return (
     <div>
@@ -28,14 +28,14 @@ const Header = () => {
          
             <h3 className="nav-item">
             <NavLink style={getActiveStyle}  className="link"
-            to="/products">
+            to="/projects">
               <small>02.</small> Projects
               </NavLink>
             </h3>
           
             <h3 className="nav-item">
             <NavLink style={getActiveStyle}  className="link"
-            to="/blogs">
+            to="/blog">
               <small>03.</small> Blogs
               </NavLink>
             </h3>

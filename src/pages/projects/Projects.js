@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFolder } from "react-icons/fa";
-import csslibrary from "./productimg/csslibrary.png";
+import libimg from "./productimg/libimg.png"
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 import "./projects.css";
@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="projects-card-container">
           <div class="project-card">
             <div class="project-tumb">
-              <img src={csslibrary} alt="" />
+              <img src={libimg} alt="" />
             </div>
             <div class="project-details">
               <h3 className="project-title">Css-Library</h3>
